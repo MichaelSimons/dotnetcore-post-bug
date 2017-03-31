@@ -7,7 +7,7 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ChrisNet
+namespace DotnetPost
 {
     public class Program
     {
