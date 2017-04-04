@@ -1,4 +1,4 @@
-FROM microsoft/dotnet
+FROM microsoft/dotnet-nightly:2-sdk
 
 WORKDIR app
 COPY *.csproj .
