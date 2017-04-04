@@ -2,7 +2,7 @@
 
 START=$(date +%s)
 
-for i in {1..100}
+for i in {1..1000}
 do
 	curl -s -w "%{time_total}\n" -o /dev/null -d "test data" http://localhost:8000/
 done
