@@ -13,7 +13,7 @@ namespace DotnetPost
   public class Program
   {
 
-    const string uri = "http://127.0.0.1:8000/post";
+    const string uri = "http://service:8000/post";
     const int numberOfRequests = 10000;
     public static void Main(string[] args)
     {

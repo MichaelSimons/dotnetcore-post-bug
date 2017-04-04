@@ -1,0 +1,14 @@
+version: '3'
+services:
+  service:
+    build:
+      context: ./goServer
+    networks:
+      - back-tier
+  test-app:
+    build:
+      context: ./dotnetPost/dotnetPost
+    networks:
+      - back-tier
+networks:
+  back-tier:
